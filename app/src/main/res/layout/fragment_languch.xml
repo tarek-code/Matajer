@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home.Fragments.LanguchFragment">
+
+    <TextView
+        android:id="@+id/mainTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_app_language"
+        android:textColor="#00aced"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+<RadioButton
+    android:id="@+id/english"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/english"
+    android:textColor="#00aced"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toTopOf="@id/savefragment"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0"
+    app:layout_constraintVertical_bias="0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/mainTV"
+    />
+    <RadioButton
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.1"
+        android:id="@+id/arabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Arabic"
+        android:textColor="#00aced"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/savefragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/english"
+        />
+
+    <Button
+        android:id="@+id/savefragment"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_login_sginup"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arabic"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>

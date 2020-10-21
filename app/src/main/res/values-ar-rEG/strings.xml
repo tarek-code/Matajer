@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matajer</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="are_you_sure_want_to_logout">هل تريد حقا تسجيل الخروج</string>
+    <string name="lastname_signup">اسم العائلة</string>
+    <string name="change_app_language">تغير اللغة</string>
+    <string name="name">الاسم</string>
+    <string name="save_image">حفظ الصورة</string>
+    <string name="save">حفظ</string>
+    <string name="upload_your_image">ارفاق الصورة من</string>
+    <string name="edit_profile">"تعديل الملف الشخصي "</string>
+    <string name="buy_now_btn">شراء الان</string>
+    <string name="favoret">المفضلة</string>
+    <string name="home1">القائمة</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="sittimgs">الاعدادات</string>
+    <string name="abbout_us">معلومات عنا</string>
+    <string name="send_your_email_to_restore_your_account_password_forget_passord">"أرسل بريدك الإلكتروني لاستعادة كلمة مرور حسابك "</string>
+    <string name="forget_password">"هل نسيت كلمة المرور "</string>
+    <string name="login_TV">تسجيل الدخول</string>
+    <string name="signup_btn">سجل اول مرة</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="forget_password_signup">"هل نسيت كلمة المرور "</string>
+    <string name="password_signup">كلمة السر</string>
+    <string name="phone_signup">رقم الهاتف</string>
+    <string name="e_mail_signup">البريد الالكتروني</string>
+    <string name="firist_name_signup">الاسم الاول</string>
+    <string name="sign_upTV">سجل اول مرة</string>
+    <string name="hello_blank_fragment">"مرحبًا بجزء فارغ "</string>
+    <string name="history">السجل</string>
+    <string name="Edit_Profile_settings">تعديل الملف الشخصي</string>
+    <string name="Change_Language">"تغيير اللغة "</string>
+    <string name="Contact_Us">التواصل معنا</string>
+    <string name="Share_App">مشاركة التطبيق</string>
+    <string name="Rate_App">تقييم التطبيق</string>
+    <string name="Log_out">تسجيل الخروج</string>
+    <string name="fav">المفضلة</string>
+    <string name="Loading...">جاي التحميل...</string>
+</resources>
